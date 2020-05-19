@@ -1,0 +1,29 @@
+#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
+#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
+#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
+#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
+#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
+#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
+#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
+#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
+#u:::::::::::::::us:::::ssss::::::e::::::::e          
+# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
+#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
+#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
+########################################################################
+##ruby27
+>=dev-ruby/minitest-5.14.0 ruby_targets_ruby27
+>=dev-ruby/net-telnet-0.2.0 ruby_targets_ruby27
+>=dev-ruby/power_assert-1.1.5 ruby_targets_ruby27
+>=dev-ruby/rake-13.0.1 ruby_targets_ruby27
+>=dev-ruby/test-unit-3.3.5 ruby_targets_ruby27
+>=dev-ruby/xmlrpc-0.3.0 ruby_targets_ruby27
+>=dev-ruby/bundler-2.1.4 ruby_targets_ruby27
+>=dev-ruby/did_you_mean-1.4.0 ruby_targets_ruby27
+>=dev-ruby/json-2.3.0 ruby_targets_ruby27
+>=dev-ruby/rdoc-6.2.0 ruby_targets_ruby27
+>=virtual/rubygems-16 ruby_targets_ruby27
+>=dev-ruby/rubygems-3.1.2 ruby_targets_ruby27
+>=dev-ruby/kpeg-1.1.0-r1 ruby_targets_ruby27
+>=dev-ruby/racc-1.4.16-r1 ruby_targets_ruby27
+

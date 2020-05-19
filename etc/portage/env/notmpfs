@@ -1,0 +1,14 @@
+#    eeeeeeeeeeee   nnnn  nnnnnnnnvvvvvvv           vvvvvvv
+#  ee::::::::::::ee n:::nn::::::::nv:::::v         v:::::v 
+# e::::::eeeee:::::en::::::::::::::nv:::::v       v:::::v  
+#e::::::e     e:::::nn:::::::::::::::v:::::v     v:::::v   
+#e:::::::eeeee::::::e n:::::nnnn:::::nv:::::v   v:::::v    
+#e:::::::::::::::::e  n::::n    n::::n v:::::v v:::::v     
+#e::::::eeeeeeeeeee   n::::n    n::::n  v:::::v:::::v      
+#e:::::::e            n::::n    n::::n   v:::::::::v       
+#e::::::::e           n::::n    n::::n    v:::::::v        
+# e::::::::eeeeeeee   n::::n    n::::n     v:::::v         
+#  ee:::::::::::::e   n::::n    n::::n      v:::v          
+#    eeeeeeeeeeeeee   nnnnnn    nnnnnn       vvv           
+########################################################################
+PORTAGE_TMPDIR="/var/tmp/notmpfs"

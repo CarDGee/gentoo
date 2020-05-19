@@ -1,0 +1,16 @@
+#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
+#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
+#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
+#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
+#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
+#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
+#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
+#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
+#u:::::::::::::::us:::::ssss::::::e::::::::e          
+# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
+#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
+#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
+########################################################################
+##llvm
+sys-devel/llvm gold
+

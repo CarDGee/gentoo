@@ -1,0 +1,37 @@
+#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
+#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
+#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
+#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
+#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
+#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
+#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
+#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
+#u:::::::::::::::us:::::ssss::::::e::::::::e          
+# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
+#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
+#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
+########################################################################
+##audacity
+media-sound/audacity ffmpeg id3tag jack sbsms twolame vamp
+
+##cmus
+media-sound/cmus ao cddb cdio ffmpeg jack libsamplerate mikmod modplug musepack opus oss pulseaudio tremor wavpack
+
+##deluge
+net-p2p/deluge gtk
+>=net-libs/libtorrent-rasterbar-1.2.3 python
+>=dev-libs/boost-1.72.0-r1 python
+
+##ffmpeg
+media-video/ffmpeg bluray cdio codec2 cpudetection dav1d fontconfig gcrypt gnutls gsm jack libass libcaca libdrm libilbc librtmp libsoxr libtesseract libv4l lzma modplug opencl openh264 opus oss pic pulseaudio rubberband snappy speex srt theora twolame v4l vidstab vpx wavpack x265 zimg zvbi
+
+##gimp
+media-gfx/gimp aalib openexr python unwind vector-icons webp wmf xpm
+
+
+##mpv
+media-video/mpv bluray cplugins drm dvb gamepad gbm jack javascript libcaca libmpv luajit openal oss pulseaudio rubberband sdl tools vulkan zimg
+
+##pulse
+media-sound/pulseeffects bs2b calf mda-lv2 rubberband
+media-plugins/calf lv2

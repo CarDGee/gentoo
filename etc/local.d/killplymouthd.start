@@ -1,0 +1,3 @@
+#!/bin/sh
+# Show below message on system startup
+pkill plymouthd

@@ -1,0 +1,31 @@
+#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
+#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
+#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
+#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
+#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
+#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
+#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
+#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
+#u:::::::::::::::us:::::ssss::::::e::::::::e          
+# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
+#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
+#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
+########################################################################
+
+app-emulation/qemu lzo plugins pulseaudio python spice usbredir virtfs xfs
+
+app-emulation/libvirt fuse glusterfs lvm lxc parted virt-network
+
+app-emulation/virt-manager gtk
+
+app-emulation/spice lz4
+
+>=sys-block/parted-3.3-r1 device-mapper
+>=net-dns/dnsmasq-2.80-r1 script
+>=net-misc/spice-gtk-0.37-r2 usbredir
+
+>=media-plugins/alsa-plugins-1.2.1 pulseaudio
+>=dev-libs/libxml2-2.9.9-r3 python
+>=sys-block/parted-3.2-r1 device-mapper
+>=x11-libs/libxcb-1.13.1 xkb
+

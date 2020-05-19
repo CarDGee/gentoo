@@ -1,0 +1,34 @@
+#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
+#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
+#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
+#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
+#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
+#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
+#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
+#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
+#u:::::::::::::::us:::::ssss::::::e::::::::e          
+# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
+#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
+#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
+########################################################################
+##misc
+>=app-crypt/gcr-3.34.0-r1 gtk
+>=app-crypt/pinentry-1.1.0-r2 gnome-keyring
+
+##opus
+>=media-libs/opus-1.3.1-r1 abi_x86_32
+
+##python
+*/* PYTHON_TARGETS: python3_7
+dev-lang/python sqlite
+>=dev-python/setuptools-44.1.0 python_targets_python3_7
+>=dev-python/cairocffi-1.1.0 python_targets_python3_7
+>=dev-python/cffi-1.14.0 python_targets_python3_7
+>=dev-python/six-1.14.0 python_targets_python3_7
+>=dev-python/xcffib-0.9.0 python_targets_python3_7
+>=dev-python/pycparser-2.19-r1 python_targets_python3_7
+>=dev-python/certifi-2020.4.5.1 python_targets_python3_7
+>=dev-python/ply-3.11 python_targets_python3_7
+
+##qtile
+x11-wm/qtile python_targets_python3_7

@@ -1,0 +1,12 @@
+# <file system>             <mount point>  <type>  <options>  <dump>  <pass>
+UUID=C33C-1F11	/boot	vfat	noauto,noatime	0	2
+
+UUID=025a15b9-a7a4-4407-b1b5-c84e48c8b1dc	/	ext4	defaults,noatime,errors=remount-ro	0	1
+UUID=8bcd1d33-4134-4211-85b7-c8d9e9ecc7df	none	swap	defaults	0	0
+
+UUID=46360544-ebde-405a-a965-da15d6594023	/home/d4n13l/Data	ext4	defaults,barrier=0,data=writeback,discard	0	0
+#/dev/mapper/gen-data	/home/d4n13l/Data	ext4    defaults,barrier=0,data=writeback,discard	0	0
+
+
+tmpfs	/tmp	tmpfs	defaults,noatime,mode=1777	0	0
+tmpfs	/var/tmp/portage	tmpfs	size=6G,uid=portage,gid=portage,mode=775,noatime	0	0
