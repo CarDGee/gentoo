@@ -114,3 +114,4 @@
 
 ##wine
 app-emulation/wine-vanilla opencl osmesa pulseaudio v4l vkd3d vulkan xinerama
+>=virtual/wine-0-r7 staging

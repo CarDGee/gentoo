@@ -1,7 +1,0 @@
-[brave-overlay]
-
-location = /var/db/repos/brave-overlay
-sync-type = git
-sync-uri = https://gitlab.com/jason.oliveira/brave-overlay.git
-priority = 50
-auto-sync = Yes

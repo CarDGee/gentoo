@@ -26,4 +26,3 @@
 >=dev-ruby/rubygems-3.1.2 ruby_targets_ruby27
 >=dev-ruby/kpeg-1.1.0-r1 ruby_targets_ruby27
 >=dev-ruby/racc-1.4.16-r1 ruby_targets_ruby27
-

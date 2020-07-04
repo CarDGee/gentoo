@@ -28,4 +28,3 @@ app-emulation/spice lz4
 >=dev-libs/libxml2-2.9.9-r3 python
 >=sys-block/parted-3.2-r1 device-mapper
 >=x11-libs/libxcb-1.13.1 xkb
-

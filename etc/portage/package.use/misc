@@ -13,3 +13,23 @@
 ########################################################################
 
 net-wireless/blueman network
+
+>=app-text/poppler-0.88.0-r1 cairo
+# required by media-gfx/gimp-2.10.18-r1::gentoo
+# required by gimp (argument)
+>=media-libs/gegl-0.4.22 cairo
+
+>=dev-qt/qtscript-5.14.2 scripttools
+# required by dev-qt/qtcore-5.14.2::gentoo
+# required by dev-qt/qtconcurrent-5.14.2::gentoo
+# required by media-sound/mixxx-2.2.3-r2::gentoo
+# required by mixxx (argument)
+>=dev-libs/libpcre2-10.34 pcre16
+
+>=media-libs/harfbuzz-2.6.5 icu
+
+games-util/gamemode abi_x86_32
+
+media-gfx/imagemagick xml
+
+#dev-lang/mono minimal

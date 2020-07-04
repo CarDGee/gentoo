@@ -14,7 +14,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 #GRUB_DEFAULT=0
 
 # Boot the default entry this many seconds after the menu is displayed
-GRUB_TIMEOUT=0
+GRUB_TIMEOUT=1
 #GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
@@ -26,10 +26,10 @@ GRUB_TIMEOUT=0
 # GRUB_CMDLINE_LINUX="net.ifnames=0"
 #
 # Boot with systemd instead of sysvinit (openrc)
-# GRUB_CMDLINE_LINUX="init=/usr/lib/systemd/systemd"
+GRUB_CMDLINE_LINUX="quiet splash acpi_backlight=video dolvm crypt_root=UUID=4466bcce-546d-4937-bea3-eccd07fe5241 root=/dev/mapper/zen-root iommu=1 amd_iommu=pt rd.driver.pre=vfio-pci"
 
 # Append parameters to the linux kernel command line for non-recovery entries
-GRUB_CMDLINE_LINUX_DEFAULT="quiet splash dolvm crypt_root=UUID=4466bcce-546d-4937-bea3-eccd07fe5241 root=/dev/mapper/zen-root root_trim=yes iommu=1 amd_iommu=on rd.driver.pre=vfio-pci"
+#GRUB_CMDLINE_LINUX_DEFAULT=""
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
@@ -49,7 +49,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet splash dolvm crypt_root=UUID=4466bcce-546d-493
 # Path to theme spec txt file.
 # The starfield is by default provided with use truetype.
 # NOTE: when enabling custom theme, ensure you have required font/etc.
-GRUB_THEME="/boot/grub/themes/gentoo/theme.txt"
+GRUB_THEME="/boot/grub/themes/dracula-grub2/theme.txt"
 
 # Background image used on graphical terminal.
 # Can be in various bitmap formats.

@@ -11,6 +11,12 @@
 #  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
 #    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
 ########################################################################
+##dbus
+sys-apps/dbus user-session
+
+##lz4
+app-arch/lz4 abi_x86_32
+
 ##misc
 >=app-crypt/gcr-3.34.0-r1 gtk
 >=app-crypt/pinentry-1.1.0-r2 gnome-keyring
@@ -32,3 +38,6 @@ dev-lang/python sqlite
 
 ##qtile
 x11-wm/qtile python_targets_python3_7
+
+##systemd
+sys-apps/systemd abi_x86_32

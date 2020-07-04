@@ -45,8 +45,14 @@ app-misc/cardgee-base ~amd64
 app-misc/cardgee-qtile ~amd64
 app-misc/cardgee-apps ~amd64
 
+##discord
+net-im/discord-bin ~amd64
+
 ##dislocker
 sys-fs/dislocker ~amd64
+
+##ds4drv
+games-util/ds4drv **
 
 ##firefox
 www-client/firefox ~amd64
@@ -54,12 +60,24 @@ www-client/firefox-bin ~amd64
 media-libs/libvpx ~amd64
 media-libs/libwebp ~amd64
 
+##gamemode
+games-util/gamemode ~amd64 
+
+##gtk+
+=x11-libs/gtk+-3.24.20
+
+##kernel
+sys-kernel/genkernel-next ~amd64
+
 ##glances
 sys-process/glances ~amd64
 
 ##lutris
 games-util/lutris ~amd64
 dev-python/python-evdev ~amd64
+
+##misc
+=media-libs/shaderc-2020.1 ~amd64
 
 ##mkstage4
 app-backup/mkstage4 ~amd64
@@ -83,7 +101,7 @@ dev-python/cairocffi ~amd64
 dev-python/certifi ~amd64
 
 ##qt
-dev-qt/qtcharts ~amd64
+#dev-qt/qtcharts ~amd64
 
 ##qtile
 x11-wm/qtile ~amd64
@@ -92,6 +110,8 @@ x11-wm/qtile ~amd64
 x11-apps/radeon-profile ~amd64
 x11-apps/radeon-profile-daemon ~amd64
 
-##riot
-net-im/riot-web ~amd64
-sys-apps/yarn ~amd64
+##steam
+games-util/steam-meta ~amd64
+games-util/steam* ~amd64
+##stremio
+media-tv/stremio-shell **

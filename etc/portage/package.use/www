@@ -1,4 +1,3 @@
-#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
 #u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
 #u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
 #u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
@@ -17,3 +16,17 @@ www-client/firefox bindist geckodriver gmp-autoupdate jack pulseaudio wifi
 >=media-libs/libvpx-1.7.0-r1 postproc
 >=dev-db/sqlite-3.31.1 secure-delete
 
+##qt
+dev-qt/qtwebengine alsa bindist jumbo-build system-ffmpeg system-icu widgets -debug -designer -geolocation -pulseaudio -test
+# required by sys-apps/systemd-244.3::gentoo[lzma]
+# required by media-sound/mpd-0.21.22::gentoo[systemd]
+# required by app-misc/cardgee-qtile-333::cardgee
+# required by @selected
+# required by @world (argument)
+>=app-arch/xz-utils-5.2.4-r2 abi_x86_32 static-libs
+# required by media-libs/mesa-20.0.8::gentoo[zstd]
+# required by media-libs/libepoxy-1.5.4::gentoo[egl]
+# required by www-client/brave-bin-1.10.88::brave-overlay
+# required by @selected
+# required by @world (argument)
+>=app-arch/zstd-1.4.4-r4 abi_x86_32

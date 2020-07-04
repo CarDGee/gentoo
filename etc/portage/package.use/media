@@ -28,6 +28,8 @@ media-video/ffmpeg bluray cdio codec2 cpudetection dav1d fontconfig gcrypt gnutl
 ##gimp
 media-gfx/gimp aalib openexr python unwind vector-icons webp wmf xpm
 
+##mixxx
+media-sound/mixxx aac ffmpeg hid lv2 mp4 shout wavpack
 
 ##mpv
 media-video/mpv bluray cplugins drm dvb gamepad gbm jack javascript libcaca libmpv luajit openal oss pulseaudio rubberband sdl tools vulkan zimg
