@@ -1,2 +1,10 @@
 CC="clang"
 CXX="clang++"
+CFLAGS="${CFLAGS} -flto"  
+CXXFLAGS="-stdlib=libc++ ${CFLAGS}"
+LDFLAGS="-fuse-ld=lld -rtlib=compiler-rt -unwindlib=libunwind"
+LDFLAGS="-Wl,-O2 -Wl,--as-needed" 
+
+
+FCFLAGS="${CFLAGS}"
+FFLAGS="${CFLAGS}"

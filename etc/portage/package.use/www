@@ -1,32 +1,14 @@
-#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
-#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
-#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
-#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
-#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
-#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
-#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
-#u:::::::::::::::us:::::ssss::::::e::::::::e          
-# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
-#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
-#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
-########################################################################
-##firefox
-www-client/firefox bindist geckodriver gmp-autoupdate jack pulseaudio wifi
->=media-libs/libpng-1.6.37 apng
->=media-libs/libvpx-1.7.0-r1 postproc
->=dev-db/sqlite-3.31.1 secure-delete
+##deluge
+net-p2p/deluge gtk
 
-##qt
-dev-qt/qtwebengine alsa bindist jumbo-build system-ffmpeg system-icu widgets -debug -designer -geolocation -pulseaudio -test
-# required by sys-apps/systemd-244.3::gentoo[lzma]
-# required by media-sound/mpd-0.21.22::gentoo[systemd]
-# required by app-misc/cardgee-qtile-333::cardgee
-# required by @selected
-# required by @world (argument)
->=app-arch/xz-utils-5.2.4-r2 abi_x86_32 static-libs
-# required by media-libs/mesa-20.0.8::gentoo[zstd]
-# required by media-libs/libepoxy-1.5.4::gentoo[egl]
-# required by www-client/brave-bin-1.10.88::brave-overlay
-# required by @selected
-# required by @world (argument)
->=app-arch/zstd-1.4.4-r4 abi_x86_32
+##dns
+net-dns/dnsmasq script
+
+##javascript
+net-libs/nodejs -lto
+
+##ktorrent
+net-p2p/ktorrent bwscheduler downloadorder infowidget ipfilter -kross -logviewer magnetgenerator -mediaplayer scanfolder -shutdown -stats -upnp webengine -zeroconf
+
+##xml
+dev-libs/xmlsec nss

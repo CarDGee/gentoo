@@ -1,0 +1,4 @@
+app-text/xmlto text
+
+media-libs/mesa d3d9 gles1 osmesa vaapi valgrind vdpau vulkan vulkan-overlay zink
+>=x11-libs/libdrm-2.4.103 video_cards_radeon

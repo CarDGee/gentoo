@@ -1,43 +1,79 @@
-#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
-#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
-#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
-#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
-#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
-#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
-#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
-#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
-#u:::::::::::::::us:::::ssss::::::e::::::::e          
-# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
-#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
-#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
-########################################################################
+#BBBBBBBBBBBBBBBBB                                                         
+#B::::::::::::::::B                                                        
+#B::::::BBBBBB:::::B                                                       
+#BB:::::B     B:::::B                                                      
+#  B::::B     B:::::B  aaaaaaaaaaaaa      ssssssssss       eeeeeeeeeeee    
+#  B::::B     B:::::B  a::::::::::::a   ss::::::::::s    ee::::::::::::ee  
+#  B::::BBBBBB:::::B   aaaaaaaaa:::::ass:::::::::::::s  e::::::eeeee:::::ee
+#  B:::::::::::::BB             a::::as::::::ssss:::::se::::::e     e:::::e
+#  B::::BBBBBB:::::B     aaaaaaa:::::a s:::::s  ssssss e:::::::eeeee::::::e
+#  B::::B     B:::::B  aa::::::::::::a   s::::::s      e:::::::::::::::::e 
+#  B::::B     B:::::B a::::aaaa::::::a      s::::::s   e::::::eeeeeeeeeee  
+#  B::::B     B:::::Ba::::a    a:::::assssss   s:::::s e:::::::e           
+#BB:::::BBBBBB::::::Ba::::a    a:::::as:::::ssss::::::se::::::::e          
+#B:::::::::::::::::B a:::::aaaa::::::as::::::::::::::s  e::::::::eeeeeeee  
+#B::::::::::::::::B   a::::::::::aa:::as:::::::::::ss    ee:::::::::::::e  
+#BBBBBBBBBBBBBBBBB     aaaaaaaaaa  aaaa sssssssssss        eeeeeeeeeeeeee  
+##################################################################################
+
 ##dbus
 sys-apps/dbus user-session
 
-##lz4
-app-arch/lz4 abi_x86_32
+##doas
+app-admin/doas persist
+
+##cups
+net-print/cups-filters -pdf
+
+##flatpak
+dev-util/ostree curl
+
+##gcc
+sys-devel/gcc vtv
+
+##grub
+sys-boot/grub device-mapper mount
+
+##lua
+dev-lua/lpeg luajit
+dev-lua/luv luajit
+dev-lua/mpack luajit
+
+##lxappearance
+lxde-base/lxappearance gtk3
 
 ##misc
->=app-crypt/gcr-3.34.0-r1 gtk
->=app-crypt/pinentry-1.1.0-r2 gnome-keyring
+sys-libs/libseccomp static-libs
 
-##opus
->=media-libs/opus-1.3.1-r1 abi_x86_32
+##openrc
+sys-apps/openrc sysv-utils
 
-##python
-*/* PYTHON_TARGETS: python3_7
+##-ppp
+net-libs/gnutls -test-full
+net-misc/networkmanager -ppp
+
+#python
 dev-lang/python sqlite
->=dev-python/setuptools-44.1.0 python_targets_python3_7
->=dev-python/cairocffi-1.1.0 python_targets_python3_7
->=dev-python/cffi-1.14.0 python_targets_python3_7
->=dev-python/six-1.14.0 python_targets_python3_7
->=dev-python/xcffib-0.9.0 python_targets_python3_7
->=dev-python/pycparser-2.19-r1 python_targets_python3_7
->=dev-python/certifi-2020.4.5.1 python_targets_python3_7
->=dev-python/ply-3.11 python_targets_python3_7
+dev-python/pygobject -test
 
-##qtile
-x11-wm/qtile python_targets_python3_7
+##qt
+dev-qt/qtcore icu
+dev-qt/qtdeclarative localstorage
 
-##systemd
-sys-apps/systemd abi_x86_32
+##rust
+dev-lang/rust-bin clippy rls rustfmt
+
+##spidermonkey
+dev-lang/spidermonkey -lto
+
+##-w3m
+app-text/xmlto -text
+
+##vim
+app-editors/vim cscope luajit perl python sound terminal
+
+##xz
+app-arch/xz-utils static-libs
+
+##zlib
+sys-libs/zlib minizip static-libs

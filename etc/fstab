@@ -1,15 +1,13 @@
 # <file system>             <mount point>  <type>  <options>  <dump>  <pass>
-UUID=C33C-1F11	/boot	vfat	noauto,noatime	0	2
+UUID=21A2-E739  /boot   vfat    noauto,noatime  0       2
 
-UUID=025a15b9-a7a4-4407-b1b5-c84e48c8b1dc	/	ext4	defaults,noatime,errors=remount-ro,discard	0	1
+UUID=100f07d7-dcdc-4b10-827a-aa800bfec7f4       /       ext4    defaults,noatime,errors=remount-ro,discard      0       1
 
-#/dev/mapper/zen-swap	none    swap    defaults        0       0
-UUID=a9291b97-9171-4226-9a31-0e12c7de15ad	none	swap	defaults	0	0
+/dev/mapper/zen-swap    none    swap    defaults        0       0
+/dev/mapper/zen-data    /home/d4n13l/Data       ext4    defaults,noatime,barrier=0,data=writeback,discard       0       0
 
-#UUID=46360544-ebde-405a-a965-da15d6594023	/home/d4n13l/Data	ext4	defaults,barrier=0,data=writeback,discard	0	0
-/dev/mapper/gen-data	/home/d4n13l/Data	ext4    defaults,barrier=0,data=writeback,discard	0	0
+/dev/mapper/media       /home/d4n13l/Media      ext4    noatime,data=writeback,nobh,barrier=0,commit=300        0       0
 
 
-tmpfs	/tmp	tmpfs	defaults,noatime,mode=1777	0	0
-tmpfs	/var/tmp/portage	tmpfs	size=6G,uid=portage,gid=portage,mode=775,noatime	0	0
-
+tmpfs   /tmp    tmpfs   defaults,noatime,mode=1777      0       0
+tmpfs   /var/tmp/portage        tmpfs   size=18G,uid=portage,gid=portage,mode=775,noatime       0       0

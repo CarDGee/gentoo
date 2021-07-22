@@ -1,0 +1,12 @@
+CC="gcc"
+CXX="g++"
+
+COMMON_FLAGS="-march=znver1 -mtune=native -O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+LDFLAGS="${COMMON_FLAGS}"
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"

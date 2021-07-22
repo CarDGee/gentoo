@@ -1,39 +1,64 @@
-#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
-#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
-#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
-#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
-#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
-#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
-#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
-#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
-#u:::::::::::::::us:::::ssss::::::e::::::::e          
-# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
-#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
-#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
-########################################################################
-##audacity
-media-sound/audacity ffmpeg id3tag jack sbsms twolame vamp
+#                                                               dddddddd                          
+#MMMMMMMM               MMMMMMMM                                d::::::d  iiii                    
+#M:::::::M             M:::::::M                                d::::::d i::::i                   
+#M::::::::M           M::::::::M                                d::::::d  iiii                    
+#M:::::::::M         M:::::::::M                                d:::::d                           
+#M::::::::::M       M::::::::::M    eeeeeeeeeeee        ddddddddd:::::d iiiiiii   aaaaaaaaaaaaa   
+#M:::::::::::M     M:::::::::::M  ee::::::::::::ee    dd::::::::::::::d i:::::i   a::::::::::::a  
+#M:::::::M::::M   M::::M:::::::M e::::::eeeee:::::ee d::::::::::::::::d  i::::i   aaaaaaaaa:::::a 
+#M::::::M M::::M M::::M M::::::Me::::::e     e:::::ed:::::::ddddd:::::d  i::::i            a::::a 
+#M::::::M  M::::M::::M  M::::::Me:::::::eeeee::::::ed::::::d    d:::::d  i::::i     aaaaaaa:::::a 
+#M::::::M   M:::::::M   M::::::Me:::::::::::::::::e d:::::d     d:::::d  i::::i   aa::::::::::::a 
+#M::::::M    M:::::M    M::::::Me::::::eeeeeeeeeee  d:::::d     d:::::d  i::::i  a::::aaaa::::::a 
+#M::::::M     MMMMM     M::::::Me:::::::e           d:::::d     d:::::d  i::::i a::::a    a:::::a 
+#M::::::M               M::::::Me::::::::e          d::::::ddddd::::::ddi::::::ia::::a    a:::::a 
+#M::::::M               M::::::M e::::::::eeeeeeee   d:::::::::::::::::di::::::ia:::::aaaa::::::a 
+#M::::::M               M::::::M  ee:::::::::::::e    d:::::::::ddd::::di::::::i a::::::::::aa:::a
+#MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee     ddddddddd   dddddiiiiiiii  aaaaaaaaaa  aaaa
+###############################################################################################################################################################################################################################
 
-##cmus
-media-sound/cmus ao cddb cdio ffmpeg jack libsamplerate mikmod modplug musepack opus oss pulseaudio tremor wavpack
-
-##deluge
-net-p2p/deluge gtk
->=net-libs/libtorrent-rasterbar-1.2.3 python
->=dev-libs/boost-1.72.0-r1 python
+##bluetooth
+media-sound/pulseaudio -bluetooth
+media-sound/pulseaudio-modules-bt fdk ofono-headset
+>=media-libs/libcanberra-0.30-r5 gtk3
+# required by dev-python/xapp-2.2.1::gentoo
+# required by net-wireless/blueberry-1.4.2::gentoo[python_single_target_python3_9]
+# required by blueberry (argument)
+>=x11-libs/xapps-2.2.1 introspection
+# required by x11-libs/xapps-2.2.1::gentoo
+# required by dev-python/xapp-2.2.1::gentoo
+# required by net-wireless/blueberry-1.4.2::gentoo[python_single_target_python3_9]
+# required by blueberry (argument)
+>=dev-libs/libdbusmenu-16.04.0-r1 gtk3
 
 ##ffmpeg
-media-video/ffmpeg bluray cdio codec2 cpudetection dav1d fontconfig gcrypt gnutls gsm jack libass libcaca libdrm libilbc librtmp libsoxr libtesseract libv4l lzma modplug opencl openh264 opus oss pic pulseaudio rubberband snappy speex srt theora twolame v4l vidstab vpx wavpack x265 zimg zvbi
+media-video/ffmpeg alsa codec2 cpudetection jack libcaca librtmp mp3 srt -svg twolame vaapi vorbis webp
 
-##gimp
-media-gfx/gimp aalib openexr python unwind vector-icons webp wmf xpm
+##lutris
+media-libs/harfbuzz icu
+dev-libs/libgudev introspection
+sys-apps/file -python
 
-##mixxx
-media-sound/mixxx aac ffmpeg hid lv2 mp4 shout wavpack
+##mesa
+media-libs/mesa d3d9 gles1 osmesa vaapi valgrind vdpau vulkan vulkan-overlay zink
+x11-libs/libdrm video_cards_radeon
+
+##misc
+dev-libs/libxml2 icu
+media-libs/libvpx postproc svc
+>=media-libs/freetype-2.10.4 harfbuzz
 
 ##mpv
-media-video/mpv bluray cplugins drm dvb gamepad gbm jack javascript libcaca libmpv luajit openal oss pulseaudio rubberband sdl tools vulkan zimg
+media-video/mpv cdda cplugins drm jack libmpv rubberband sdl tools vulkan
 
-##pulse
-media-sound/pulseeffects bs2b calf mda-lv2 rubberband
-media-plugins/calf lv2
+##steam
+games-util/steam-client-meta steamfonts trayicon
+
+##vlc
+media-video/vlc a52 aom arisub cdbd chromecast dav1d faad fluidsynth gme jack kate libtiger live lua mad matroska musepack ogg qt5 rdp skins speex srt theora truetype twolame x264 xml 
+
+##wine
+app-emulation/winetricks gtk
+
+media-libs/opus custom-modes
+

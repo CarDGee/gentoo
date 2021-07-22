@@ -1,15 +1,5 @@
-#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
-#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
-#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
-#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
-#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
-#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
-#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
-#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
-#u:::::::::::::::us:::::ssss::::::e::::::::e          
-# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
-#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
-#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
-########################################################################
-##llvm
-sys-devel/llvm gold
+sys-devel/clang llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_VE
+
+sys-devel/llvm gold llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_VE
+
+dev-lang/rust clippy wasm llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_VE
