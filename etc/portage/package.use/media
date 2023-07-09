@@ -1,64 +1,50 @@
-#                                                               dddddddd                          
-#MMMMMMMM               MMMMMMMM                                d::::::d  iiii                    
-#M:::::::M             M:::::::M                                d::::::d i::::i                   
-#M::::::::M           M::::::::M                                d::::::d  iiii                    
-#M:::::::::M         M:::::::::M                                d:::::d                           
-#M::::::::::M       M::::::::::M    eeeeeeeeeeee        ddddddddd:::::d iiiiiii   aaaaaaaaaaaaa   
-#M:::::::::::M     M:::::::::::M  ee::::::::::::ee    dd::::::::::::::d i:::::i   a::::::::::::a  
-#M:::::::M::::M   M::::M:::::::M e::::::eeeee:::::ee d::::::::::::::::d  i::::i   aaaaaaaaa:::::a 
-#M::::::M M::::M M::::M M::::::Me::::::e     e:::::ed:::::::ddddd:::::d  i::::i            a::::a 
-#M::::::M  M::::M::::M  M::::::Me:::::::eeeee::::::ed::::::d    d:::::d  i::::i     aaaaaaa:::::a 
-#M::::::M   M:::::::M   M::::::Me:::::::::::::::::e d:::::d     d:::::d  i::::i   aa::::::::::::a 
-#M::::::M    M:::::M    M::::::Me::::::eeeeeeeeeee  d:::::d     d:::::d  i::::i  a::::aaaa::::::a 
-#M::::::M     MMMMM     M::::::Me:::::::e           d:::::d     d:::::d  i::::i a::::a    a:::::a 
-#M::::::M               M::::::Me::::::::e          d::::::ddddd::::::ddi::::::ia::::a    a:::::a 
-#M::::::M               M::::::M e::::::::eeeeeeee   d:::::::::::::::::di::::::ia:::::aaaa::::::a 
-#M::::::M               M::::::M  ee:::::::::::::e    d:::::::::ddd::::di::::::i a::::::::::aa:::a
-#MMMMMMMM               MMMMMMMM    eeeeeeeeeeeeee     ddddddddd   dddddiiiiiiii  aaaaaaaaaa  aaaa
-###############################################################################################################################################################################################################################
+#  ___________________________________________
+# |  _______________________________________  |
+# | / .-----------------------------------. \ |
+# | | | /\ :                        90 min| | |
+# | | |/--\:....................... NR [ ]| | |
+# | | `-----------------------------------' | |
+# | |      //-\\   |         |   //-\\      | |
+# | |     ||( )||  |_________|  ||( )||     | |
+# | |      \\-//   :....:....:   \\-//      | |
+# | |       _ _ ._  _ _ .__|_ _.._  _       | |
+# | |      (_(_)| |(_(/_|  |_(_||_)(/_      | |
+# | |               low noise   |           | |
+# | `______ ____________________ ____ ______' |
+# |        /    []             []    \        |
+# |       /  ()                   ()  \       |
+# !______/_____________________________\______!
+#
+##########################################################
 
-##bluetooth
-media-sound/pulseaudio -bluetooth
-media-sound/pulseaudio-modules-bt fdk ofono-headset
->=media-libs/libcanberra-0.30-r5 gtk3
-# required by dev-python/xapp-2.2.1::gentoo
-# required by net-wireless/blueberry-1.4.2::gentoo[python_single_target_python3_9]
-# required by blueberry (argument)
->=x11-libs/xapps-2.2.1 introspection
-# required by x11-libs/xapps-2.2.1::gentoo
-# required by dev-python/xapp-2.2.1::gentoo
-# required by net-wireless/blueberry-1.4.2::gentoo[python_single_target_python3_9]
-# required by blueberry (argument)
->=dev-libs/libdbusmenu-16.04.0-r1 gtk3
+#cava
+media-sound/cava portaudio sdl sndio
 
-##ffmpeg
-media-video/ffmpeg alsa codec2 cpudetection jack libcaca librtmp mp3 srt -svg twolame vaapi vorbis webp
+#gimp
+media-libs/babl lcms introspection
+media-libs/gegl lcms cairo introspection
 
-##lutris
-media-libs/harfbuzz icu
-dev-libs/libgudev introspection
-sys-apps/file -python
+#mpv
+media-video/mpv archive blueray cdda cplugins dvd gamepad gbm lcms libmpv -lua_single_target_lua5-1 lua_single_target_luajit sdl zimg
 
-##mesa
-media-libs/mesa d3d9 gles1 osmesa vaapi valgrind vdpau vulkan vulkan-overlay zink
-x11-libs/libdrm video_cards_radeon
+#mesa
+media-libs/mesa d3d9 gles1 osmesa
 
-##misc
-dev-libs/libxml2 icu
-media-libs/libvpx postproc svc
->=media-libs/freetype-2.10.4 harfbuzz
+#misc
+gui-libs/gtk-layer-shell introspection
 
-##mpv
-media-video/mpv cdda cplugins drm jack libmpv rubberband sdl tools vulkan
+##nerdFonts
+media-fonts/nerd-fonts X 3270 agave anonymouspro arimo aurulentsansmono bigblueterminal bitstreamverasansmono cascadiacode codenewroman cousine daddytimemono dejavusansmono droidsansmono fantasquesansmono firacode firamono go-mono gohu hack hasklig heavydata hermit ia-writer ibmplexmono inconsolata inconsolatago inconsolatalgc iosevka jetbrainsmono lekton liberationmono meslo monofur monoid mononoki mplus noto opendyslexic overpass profont proggyclean robotomono sharetechmono sourcecodepro spacemono terminus tinos ubuntu ubuntumono victormono lilex
 
-##steam
-games-util/steam-client-meta steamfonts trayicon
+#nvidia
+x11-drivers/nvidia-drivers persistenced
 
-##vlc
-media-video/vlc a52 aom arisub cdbd chromecast dav1d faad fluidsynth gme jack kate libtiger live lua mad matroska musepack ogg qt5 rdp skins speex srt theora truetype twolame x264 xml 
+#pipewire
+media-plugins/calf lv2
+media-libs/rubberband ladspa
+media-sound/easyeffects calf mda-lv2 zamaudio
+media-video/pipewire echo-cancel extra gstreamer gsettings
 
-##wine
-app-emulation/winetricks gtk
-
-media-libs/opus custom-modes
-
+##retroarch
+games-emulation/retroarch gles3 ffmpeg kms mpv 
+media-libs/freeimage png

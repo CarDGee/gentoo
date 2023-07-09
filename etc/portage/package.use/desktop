@@ -1,4 +1,96 @@
-app-text/xmlto text
+#
+#                       .,,uod8B8bou,,.
+#              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
+#         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
+#         !...:!TVBBBRPFT||||||||||!!^^""'   ||||
+#         !.......:!?|||||!!^^""'            ||||
+#         !.........||||                     ||||
+#         !.........||||  ##                 ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         `.........||||                    ,||||
+#          .;.......||||               _.-!!|||||
+#   .,uodWBBBBb.....||||       _.-!!|||||||||!:'
+#!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
+#!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
+#!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
+#!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.
+#!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
+#`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
+#  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
+#    `........::::::::::::::::;iof688888888888888888888b.     `
+#      `......:::::::::;iof688888888888888888888888888888b.
+#        `....:::;iof688888888888888888888888888888888899fT!
+#          `..::!8888888888888888888888888888888899fT|!^"'
+#            `' !!988888888888888888888888899fT|!^"'
+#                `!!8888888888888888899fT|!^"'
+#                  `!988888888899fT|!^"'
+#                    `!9899fT|!^"'
+#                      `!^"'
+#######################################################################################
 
-media-libs/mesa d3d9 gles1 osmesa vaapi valgrind vdpau vulkan vulkan-overlay zink
->=x11-libs/libdrm-2.4.103 video_cards_radeon
+#asus
+sys-power/asusctl gui notify
+
+##atril
+app-text/poppler cairo
+
+##bluetooth
+net-wireless/bluez experimental
+
+##brave
+www-client/brave-bin gnome-keyring
+
+##canberra
+media-libs/libcanberra alsa
+
+##chromium
+www-client/chromium-bin -wayland
+dev-libs/libxml2 icu
+sys-libs/zlib minizip
+
+##deluge
+dev-libs/boost python
+net-libs/libtorrent-rasterbar python
+net-p2p/deluge gui
+
+##emacs
+#app-editors/emacs Xaw3d athena cairo dbus dynamic-loading games gfile gif gpm gsettings gtk gui gzip-el imagemagick harfbuzz json lcms png sound tiff xft xwidgets
+app-editors/emacs Xaw3d athena cairo dynamic-loading games gfile gif gpm gsettings gtk gui gzip-el imagemagick harfbuzz json lcms png sound tiff xft
+app-emacs/emacs-common gui games
+media-gfx/imagemagick xml
+media-libs/harfbuzz icu
+
+##flatpak
+
+##gnome
+app-crypt/gcr gtk
+dev-lang/spidermonkey clang
+gnome-base/gvfs udisks
+net-libs/webkit-gtk spell
+
+##gimp
+media-gfx/gimp jpeg2k jpegxl openexr python vector-icons webp wmf xpm
+
+##mate
+app-arch/engrampa caja
+
+##printer
+net-dns/avahi python
+
+#virt-manager
+net-libs/gnutls pkcs11 tools
+
+##vulkan
+media-libs/vulkan-loader layers
+
+##wayland
+gui-apps/waybar evdev experimental mpd mpris network sndio tray upower wifi
+gui-libs/wlroots x11-backend
+gui-wm/hyprland grimblast scratchpad shellevents
+gui-apps/rofi-wayland drun windowmode
+
+##xmlto
+app-text/xmlto text

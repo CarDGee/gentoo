@@ -1,24 +1,31 @@
+#   _______________                        |*\_/*|________
+#  |  ___________  |     .-.     .-.      ||_/-\_|______  |
+#  | |           | |    .****. .****.     | |           | |
+#  | |   0   0   | |    .*****.*****.     | |   0   0   | |
+#  | |     -     | |     .*********.      | |     -     | |
+#  | |   \___/   | |      .*******.       | |   \___/   | |
+#  | |___     ___| |       .*****.        | |___________| |
+#  |_____|\_/|_____|        .***.         |_______________|
+#    _|__|/ \|_|_.............*.............._|________|_
+#   / ********** \                          / ********** \
+# /  ************  \                      /  ************  \
+#--------------------                    --------------------
+#
 
-#uuuuuu    uuuuuu     ssssssssss      eeeeeeeeeeee    
-#u::::u    u::::u   ss::::::::::s   ee::::::::::::ee  
-#u::::u    u::::u ss:::::::::::::s e::::::eeeee:::::ee
-#u::::u    u::::u s::::::ssss:::::e::::::e     e:::::e
-#u::::u    u::::u  s:::::s  sssssse:::::::eeeee::::::e
-#u::::u    u::::u    s::::::s     e:::::::::::::::::e 
-#u::::u    u::::u       s::::::s  e::::::eeeeeeeeeee  
-#u:::::uuuu:::::u ssssss   s:::::se:::::::e           
-#u:::::::::::::::us:::::ssss::::::e::::::::e          
-# u:::::::::::::::s::::::::::::::s e::::::::eeeeeeee  
-#  uu::::::::uu:::us:::::::::::ss   ee:::::::::::::e  
-#    uuuuuuuu  uuuu sssssssssss       eeeeeeeeeeeeee  
-########################################################################
+##dnsmasq
+net-dns/dnsmasq script
 
-app-emulation/libvirt fuse glusterfs lvm lxc parted virt-network
+##libvirt
+app-emulation/libvirt fuse
 
-app-emulation/qemu -doc jack lzo multipath nfs plugins pulseaudio python spice ssh usbredir virtfs xfs
+##lookingglass
+media-libs/freetype harfbuzz
 
-app-emulation/virt-manager gtk
+##qemu
+app-emulation/qemu gtk lzo python sdl spice virgl udev usb usbredir vhost-user-fs virtfs
 
-net-misc/spice-gtk gtk3 usbredir
+##spice
+net-misc/spice-gtk gtk3 lz4 policykit usbredir
 
-sys-block/parted device-mapper
+##virt-manager
+app-emulation/virt-manager gui policykit

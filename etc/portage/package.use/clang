@@ -1,5 +1,17 @@
-sys-devel/clang llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_VE
+####################################################################
+#                                                         
+#  ,ad8888ba,   88                                        
+# d8"'    `"8b  88                                        
+#d8'            88                                        
+#88             88  ,adPPYYba,  8b,dPPYba,    ,adPPYb,d8  
+#88             88  ""     `Y8  88P'   `"8a  a8"    `Y88  
+#Y8,            88  ,adPPPPP88  88       88  8b       88  
+# Y8a.    .a8P  88  88,    ,88  88       88  "8a,   ,d88  
+#  `"Y8888Y"'   88  `"8bbdP"Y8  88       88   `"YbbdP"Y8  
+#                                             aa,    ,88  
+#                                              "Y8bbdP"   
+###################################################################
 
-sys-devel/llvm gold llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_VE
+sys-libs/llvm-libunwind static-libs
 
-dev-lang/rust clippy wasm llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_Mips llvm_targets_MSP430 llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore llvm_targets_ARC llvm_targets_CSKY llvm_targets_VE
+sys-devel/clang-runtime libcxx

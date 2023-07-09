@@ -1,0 +1,16 @@
+#>=dev-libs/libclc-15.0.7
+#>=sys-devel/clang-15.0.6-r1
+#>=sys-devel/clang-common-15.0.7-r1
+#>=sys-devel/lld-15.0.7
+#>=sys-devel/llvm-15.0.7-r1
+#>=sys-devel/llvm-common-15.0.6-r9
+#>=sys-libs/libcxx-15.0.7
+#>=sys-libs/libcxxabi-15.0.7
+#>=sys-libs/libomp-15.0.7
+#>=sys-libs/llvm-libunwind-15.0.7
+
+
+#<=sys-devel/clang-15.0.5
+#<=sys-devel/llvm-15.0.5
+#<=sys-devel/llvm-common-15.0.5
+#<=sys-libs/llvm-libunwind-15.0.5

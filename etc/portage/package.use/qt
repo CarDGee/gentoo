@@ -1,8 +1,0 @@
-##qt
-dev-qt/qtgui egl
-dev-qt/qtmultimedia widgets
-dev-qt/qtwebchannel qml
-dev-qt/qtwebengine widgets
-
-##python
-dev-python/PyQt5 widgets printsupport network gui sql declarative multimedia webchannel

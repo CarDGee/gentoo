@@ -1,0 +1,31 @@
+#dislocker
+sys-fs/dislocker ~amd64
+
+#doas
+app-admin/doas ~amd64
+
+#editor
+app-editors/* ~amd64
+
+#kernel
+sys-kernel/* ~amd64
+
+#nvidia
+x11-drivers/nvidia-drivers ~amd64
+
+#perl
+dev-lang/perl ~amd64
+dev-perl/* ~amd64
+perl-core/* ~amd64
+virtual/perl-* ~amd64
+
+#qtile
+x11-wm/qtile ~amd64
+
+#ruby
+dev-lang/ruby ~amd64
+dev-ruby/* ~amd64
+virtual/rubygems ~amd64
+
+#rust
+dev-lang/rust-bin ~amd64

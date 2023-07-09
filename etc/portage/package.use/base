@@ -1,79 +1,49 @@
-#BBBBBBBBBBBBBBBBB                                                         
-#B::::::::::::::::B                                                        
-#B::::::BBBBBB:::::B                                                       
-#BB:::::B     B:::::B                                                      
-#  B::::B     B:::::B  aaaaaaaaaaaaa      ssssssssss       eeeeeeeeeeee    
-#  B::::B     B:::::B  a::::::::::::a   ss::::::::::s    ee::::::::::::ee  
-#  B::::BBBBBB:::::B   aaaaaaaaa:::::ass:::::::::::::s  e::::::eeeee:::::ee
-#  B:::::::::::::BB             a::::as::::::ssss:::::se::::::e     e:::::e
-#  B::::BBBBBB:::::B     aaaaaaa:::::a s:::::s  ssssss e:::::::eeeee::::::e
-#  B::::B     B:::::B  aa::::::::::::a   s::::::s      e:::::::::::::::::e 
-#  B::::B     B:::::B a::::aaaa::::::a      s::::::s   e::::::eeeeeeeeeee  
-#  B::::B     B:::::Ba::::a    a:::::assssss   s:::::s e:::::::e           
-#BB:::::BBBBBB::::::Ba::::a    a:::::as:::::ssss::::::se::::::::e          
-#B:::::::::::::::::B a:::::aaaa::::::as::::::::::::::s  e::::::::eeeeeeee  
-#B::::::::::::::::B   a::::::::::aa:::as:::::::::::ss    ee:::::::::::::e  
-#BBBBBBBBBBBBBBBBB     aaaaaaaaaa  aaaa sssssssssss        eeeeeeeeeeeeee  
-##################################################################################
-
-##dbus
-sys-apps/dbus user-session
-
+############################################
+#██████╗  █████╗ ███████╗███████╗
+#██╔══██╗██╔══██╗██╔════╝██╔════╝
+#██████╔╝███████║███████╗█████╗  
+#██╔══██╗██╔══██║╚════██║██╔══╝  
+#██████╔╝██║  ██║███████║███████╗
+#╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
+###########################################
+                                
 ##doas
 app-admin/doas persist
 
-##cups
-net-print/cups-filters -pdf
-
-##flatpak
-dev-util/ostree curl
+##freetype
+#media-libs/freetype utils
 
 ##gcc
-sys-devel/gcc vtv
+sys-devel/gcc graphite vtv
+
+##git
+#dev-vcs/git gnome-keyring
 
 ##grub
 sys-boot/grub device-mapper mount
 
+##hwloc
+sys-process/htop hwloc llvm-libunwind
+
+##intel
+sys-firmware/intel-microcode initramfs
+
+#kernel
+sys-kernel/cachyos-sources high-hz 
+sys-kernel/gentoo-sources-rog build experimental
+virtual/linux-sources firmware
+
 ##lua
-dev-lua/lpeg luajit
-dev-lua/luv luajit
-dev-lua/mpack luajit
-
-##lxappearance
-lxde-base/lxappearance gtk3
-
-##misc
-sys-libs/libseccomp static-libs
+dev-lang/luajit lua52compat
 
 ##openrc
 sys-apps/openrc sysv-utils
 
-##-ppp
-net-libs/gnutls -test-full
-net-misc/networkmanager -ppp
-
-#python
-dev-lang/python sqlite
-dev-python/pygobject -test
-
-##qt
-dev-qt/qtcore icu
-dev-qt/qtdeclarative localstorage
-
 ##rust
-dev-lang/rust-bin clippy rls rustfmt
+dev-lang/rust-bin clippy rls rust-src rustfmt 
 
-##spidermonkey
-dev-lang/spidermonkey -lto
-
-##-w3m
-app-text/xmlto -text
+##systemd
+sys-apps/systemd gnuefi
 
 ##vim
-app-editors/vim cscope luajit perl python sound terminal
-
-##xz
-app-arch/xz-utils static-libs
-
-##zlib
-sys-libs/zlib minizip static-libs
+app-editors/vim -lua_single_target_lua5-1 lua lua_single_target_luajit python terminal
