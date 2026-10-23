@@ -1,0 +1,1 @@
+KCFLAGS="-O2 -march=native -pipe"

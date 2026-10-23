@@ -4,4 +4,4 @@ location = /var/db/repos/cardgee
 sync-type = git
 sync-uri = https://github.com/CarDGee/cardgee.git
 priority = 50
-auto-sync = Yes 
+auto-sync = Yes

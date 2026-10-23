@@ -1,7 +1,0 @@
-[sid]
-location = /home/d4n13l/Documentos/repos/sid
-
-#[ROKO__]
-#location = /var/db/repos/ROKO__
-#sync-type = git
-#sync-uri = https://github.com/gentoo-mirror/ROKO__

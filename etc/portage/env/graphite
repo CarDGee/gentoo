@@ -1,0 +1,12 @@
+AR="gcc-ar"
+NM="gcc-nm"
+RANLIB="gcc-ranlib"
+
+GRAPHITE="-fgraphite-identity -floop-nest-optimize"
+
+CFLAGS="${CFLAGS} ${GRAPHITE}"
+CXXFLAGS="${CXXFLAGS} ${GRAPHITE}"
+FCFLAGS="${FCFLAGS} ${GRAPHITE}"
+FFLAGS="${FFLAGS} ${GRAPHITE}"
+
+LDFLAGS="${LDFLAGS} ${GRAPHITE}"

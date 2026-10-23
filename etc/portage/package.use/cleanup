@@ -1,4 +1,3 @@
-#######################################################
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⢤⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -16,15 +15,29 @@
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 #####################################################
 
+#bottom
+sys-process/bottom -zfs
+
 #gjs
 
+#GNOME
+gnome-base/nautilus -previewer -gstreamer -cloudproviders
 
-##mate
+#gtk2
+dev-libs/libdbusmenu -gtk
+
+#kitty
+x11-terms/kitty -X
+
+##MATE
 mate-base/caja -mate
-mate-extra/caja-extensions -mail -wallpaper
+mate-extra/caja-extensions -mail -nls -wallpaper -xattr
 
 ##mesa
 media-libs/mesa -vaapi -vdpau -xvmc
+
+#nvidia
+x11-drivers/nvidia-drivers -tools
 
 ##ppp
 net-misc/networkmanager -ppp
@@ -36,4 +49,7 @@ media-libs/libpulse -daemon
 net-print/cups-filters -pdf
 
 ##wpa_supplicant
-net-wireless/wpa_supplicant -qt5
+net-wireless/wpa_supplicant -qt5 -qt6
+
+#vlc kde
+media-libs/phonon -vlc

@@ -1,0 +1,6 @@
+[runit-overlay]
+location = /var/db/repos/runit-overlay
+sync-type = git
+sync-uri = https://github.com/gentoo-runit/runit-overlay.git
+priority = 50
+auto-sync = Yes

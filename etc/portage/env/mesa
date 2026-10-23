@@ -1,0 +1,15 @@
+CC="clang"
+CXX="clang++"
+AR="llvm-ar"
+NM="llvm-nm"
+RANLIB="llvm-ranlib"
+STRIP="llvm-strip"
+
+POLLY="-Xclang -mllvm -Xclang -polly -Xclang -mllvm -Xclang -polly-vectorizer=stripmine"
+LTO="-flto=thin"
+
+COMMON_FLAGS="-march=native -mtune=native -O3 -pipe -fno-semantic-interposition ${POLLY} ${LTO}"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+
+LDFLAGS="-fuse-ld=mold -Wl,-O1 -Wl,--as-needed -Wl,--sort-common"

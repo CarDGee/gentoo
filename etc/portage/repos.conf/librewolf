@@ -1,4 +1,0 @@
-[librewolf]
-location = /var/db/repos/librewolf
-sync-type = git
-sync-uri = https://gitlab.com/librewolf-community/browser/gentoo.git

@@ -1,0 +1,44 @@
+#
+#                                 .a@@@@@a.     ,a@@@@@@@@a,     .a@@@@@a.
+#                              .@@@@@@@@@@@a,a@@@@@@@@@@@@@@a,a@@@@@@@@@@@.
+#                              @@@@@@@@@@@@a@@@@@@@@@@@@@@@@@@a@@@@@@@@@@@@
+#                               @@@@'    `@a@@@@@@@@@@@@@@@@@@@@a@'   `@@@@
+#                               `@'        @@@@@@@@@@@@@@@@@@@@@@       `@'
+#              .########################## @@@@@@@@@"@@@"@@@@@@@@
+#           .##############################`@@@@@@@@a@@@a@@@@@@@'
+#         .#####################;;#########,@@@@@@@@@@@@@@@@@@@@,
+#       ,;;;;;######;;;;#####;;;;;;;##;;;,@@@@@@@@@@@@@@@@@@@@@@@@,
+#     ,;;;;;;;;;;;;;;;;;;###;;;;;;;;;;;;;@@@@@( )@@@@@@@@@@( )@@@@@
+#    ;;';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;`@@@@@@@@@@@@@@@@@@@@@@@@'
+#   ;;';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;`@@@@@@@@@@@@@@@@@@@@',
+#  ;;' ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; """""""""""""",;;  ',
+# ;;'  ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;    ',
+#;;;;  ###;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;####;;;;;;;;;;;;;;      ;
+#`;;'  ####;;;##;;;;;;;;;;;;;;;;;;;;;;;;;;###########;;;;;;;;;;;    ,'
+#base (dislocker doas f2fs genkernel installkernel lld modprobed ntfs openrc phn1673 systemd xfs)
+app-meta/base phn1673
+#
+#desktop (alacritty appimage atril bottom calendar cava contacts deluge games geany graphics epiphany gnome gnome-terminal gnome-text-editor hyprland k3b kcdemu kde kdeconnect keepassxc kid3 kitty ktorrent mate-apps maps mpd mpv music nautilus nemo nerd networkmanager nicotine nvidia ollama papers qbittorrent qtile signal sweeper syncthing video virt-manager waybar weather webapp winboat)
+app-meta/desktop
+#
+#games (bottles cemu dxvk epic gamescope glew lutris mangohud sc-controller steamtinkerlaunch suyu vkbasalt vkd3d wine)
+app-meta/gamedeps
+#
+#graphics (blender geeqie gimp inkscape krita pencil synfig)
+app-meta/graphics
+#
+#kde ( accessibility bluetooth browser-integration colord crash-handler crypt cups discover display-manager elogind firewall flatpak grub gtk kwallet networkmanager oxygen-theme plymouth pulseaudio qt5 sddm sdk smart systemd thunderbolt unsupported wacom wallpapers webengine xwayland )
+kde-plasma/plasma-meta
+#
+#music (ardour audacity carla easyeffects flacon hydrogen lmms mixxx qtractor shntool tenacity)
+app-meta/music
+#
+#terminal-tools (android ftp ufw vim weechat wgetpaste yt-dlp zsh)
+app-meta/terminal-tools
+#
+#tuf (asusctl)
+app-meta/tdashf15
+#
+#video (blender handbrake kdenlive mkvtools obs openshot shotcut vidcutter)
+app-meta/video
+###########################################################################################

@@ -35,40 +35,6 @@
 #                                       ,' 
 ########################################################################
 
-##games
-games-emulation/emulationstation-de **
-games-misc/vkBasalt **
-games-util/vkBasalt **
+#carla
+media-sound/carla **
 
-##gcc-12
-=sys-devel/gcc-12.2.0 ~amd64
-
-##gimp
-media-gfx/gimp **
-media-libs/babl ** 
-media-libs/gegl **
-
-##HybridBar
-gui-apps/HybridBar **
-
-##kernel
-sys-kernel/cachyos-sources **
-
-##lookingglass
-app-emulation/looking-glass **
-
-##lolcat
-games-misc/c-lolcat **
-
-##picom
-x11-misc/picom **
-x11-misc/picom-jonaburg **
-
-##qtile
-x11-wm/qtile **
-
-##spacefm
-x11-misc/spacefm **
-
-##zsh
-app-shells/ohmyzsh **

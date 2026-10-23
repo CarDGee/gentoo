@@ -1,49 +1,39 @@
-############################################
+#####################################################
 #██████╗  █████╗ ███████╗███████╗
 #██╔══██╗██╔══██╗██╔════╝██╔════╝
 #██████╔╝███████║███████╗█████╗  
 #██╔══██╗██╔══██║╚════██║██╔══╝  
 #██████╔╝██║  ██║███████║███████╗
 #╚═════╝ ╚═╝  ╚═╝╚══════╝╚══════╝
-###########################################
-                                
-##doas
-app-admin/doas persist
-
-##freetype
-#media-libs/freetype utils
-
-##gcc
-sys-devel/gcc graphite vtv
-
-##git
-#dev-vcs/git gnome-keyring
-
-##grub
-sys-boot/grub device-mapper mount
-
-##hwloc
-sys-process/htop hwloc llvm-libunwind
-
-##intel
+#####################################################
+#
+#gcc
+sys-devel/gcc cet graphite
+#
+#intel
 sys-firmware/intel-microcode initramfs
-
+sys-kernel/linux-firmware dist-kernel
+#
+#iwd
+net-wireless/iwd standalone
+#
 #kernel
-sys-kernel/cachyos-sources high-hz 
-sys-kernel/gentoo-sources-rog build experimental
+dev-util/perf libpfm
+sys-kernel/installkernel systemd systemd-boot ugrd
+sys-kernel/gentoo-kernel experimental
+sys-libs/binutils-libs 64-bit-bfd
 virtual/linux-sources firmware
-
-##lua
-dev-lang/luajit lua52compat
-
-##openrc
-sys-apps/openrc sysv-utils
-
-##rust
-dev-lang/rust-bin clippy rls rust-src rustfmt 
-
-##systemd
-sys-apps/systemd gnuefi
-
-##vim
-app-editors/vim -lua_single_target_lua5-1 lua lua_single_target_luajit python terminal
+#
+#luajit
+#
+#rust
+dev-lang/rust-bin clippy profiler rustfmt
+virtual/rust profiler rustfmt
+#
+#sudo
+app-admin/sudo offensive
+#
+#systemd
+sys-apps/systemd boot kernel-install
+#
+#######################################################

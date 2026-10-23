@@ -1,73 +1,61 @@
-#asus
-sys-power/asusctl ~amd64
-sys-power/power-profiles-daemon ~amd64
-sys-power/supergfxctl ~amd64
-
-#browser
-mail-client/* ~amd64
-www-client/* ~amd64
-
+#
+#                       .,,uod8B8bou,,.
+#              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
+#         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
+#         !...:!TVBBBRPFT||||||||||!!^^""'   ||||
+#         !.......:!?|||||!!^^""'            ||||
+#         !.........||||                     ||||
+#         !.........||||  ~#                 ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         !.........||||                     ||||
+#         `.........||||                    ,||||
+#          .;.......||||               _.-!!|||||
+#   .,uodWBBBBb.....||||       _.-!!|||||||||!:'
+#!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
+#!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
+#!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
+#!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.
+#!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
+#`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
+#  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
+#    `........::::::::::::::::;iof688888888888888888888b.     `
+#      `......:::::::::;iof688888888888888888888888888888b.
+#        `....:::;iof688888888888888888888888888888888899fT!
+#          `..::!8888888888888888888888888888888899fT|!^"'
+#            `' !!988888888888888888888888899fT|!^"'
+#                `!!8888888888888888899fT|!^"'
+#                  `!988888888899fT|!^"'
+#                    `!9899fT|!^"'
+#                      `!^"'
+#######################################################################################
 #games
-app-emulation/* ~amd64
-dev-libs/libdatrie ~amd64
-dev-libs/libthai ~amd64
+games-util/* ~amd64
+#
+#helium
+www-client/helium-bin ~amd64
+#
+#keepassxc
+app-admin/keepassxc ~amd64
+#
+#lutris
 dev-python/moddb ~amd64
 dev-python/pypresence ~amd64
-dev-python/pyrate-limiter ~amd64
-dev-util/vulkan-headers ~amd64
-games-emulation/* ~amd64
-games-misc/* ~amd64
-games-util/* ~amd64
-media-libs/imgui ~amd64
-media-libs/vkBasalt ~amd64
-
-#gnome
-dev-libs/glib ~amd64
-dev-util/gdbus-codegen ~amd64
-gui-libs/* ~amd64
-gnome-base/* ~amd64
-gnome-extra/* ~amd64
-x11-wm/mutter ~amd64
-x11-libs/vte ~amd64
-
-#hyprland
-dev-libs/date ~amd64
-dev-libs/hyprland-protocols ~amd64
-dev-libs/libliftoff ~amd64
-gui-apps/ironbar ~amd64
-gui-apps/waybar ~amd64
-gui-libs/xdg-desktop-portal-hyprland ~amd64
-gui-wm/hyprland ~amd64
-media-libs/libdisplay-info ~amd64
-gui-apps/rofi-wayland ~amd64
-gui-apps/hyprpaper ~amd64
-
-#libvirt
-dev-python/libvirt-python ~amd64
-
-#mate
-app-arch/* ~amd64
-mate-base/* ~amd64
-mate-extra/* ~amd64
-
-#misc
-media-fonts/nerd-fonts ~amd64
-sys-apps/system-monitoring-center ~amd64
-
+#
+#mpv
+mpv-plugin/mpv-mpris ~amd64
+#
+#ollama
+dev-util/nvidia-cuda-toolkit ~amd64
+sci-ml/ggml ~amd64
+sci-ml/ollama ~amd64
+#
 #qtile
-dev-python/cairocffi ~amd64
-dev-python/pywlroots ~amd64
-dev-python/pywayland ~amd64
-dev-python/xcffib ~amd64
-dev-python/xkbcommon ~amd64
-
-#ruby
-virtual/ruby-* ~amd64
-
-#terminal
-app-shells/zsh ~amd64
-x11-terms/* ~amd64
-
-#text
-app-text/* ~amd64
-app-vim/* ~amd64
+gui-apps/wlr-randr ~amd64
+x11-wm/qtile ~amd64
+#
+#steam
+sys-libs/libudev-compat ~amd64
+#
+######################################################################################
